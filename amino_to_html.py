@@ -28,7 +28,7 @@ def make_p(text, args = []):
     p = '<p class="line'
     for letter in args:
         p += BICUS[letter]
-    p += '">' + text + '</p>\n'
+    p += '">' + text[:-1] + '</p>\n'
 
     return p
 
