@@ -40,12 +40,25 @@ def check_duplicates(text):
     if (len(A) == len(text)):
         return False
     return True
+
+def make_figure(path, caption):
+    figure =  "<figure class='img-container' tabindex='0' contenteditable='false'>\n"
+    figure += "<div class='media-wrapper'><img src='"
+    figure += os.path.join( os.path.dirname(__file__), path )
+    figure += "'></div>\n"
+    figure += "<figcaption>\n"
+    figure += caption
+    figure += "</figcaption>\n"
+    figure += "</figure>\n"
+    return figure
         
 def bicus(text):
     """Formats wether there are valid Amino formatting, or not."""
     format_and_text = text.split(']')
     if (not check_duplicates(format_and_text[0]) and all(letter in 'BICUS' for letter in format_and_text[0][1:])):
         return make_p(format_and_text[1], format_and_text[0][1:])
+    elif (format_and_text[0][1:4] == 'IMG'):
+        return make_figure(format_and_text[0][5:], format_and_text[1])
     else:
         return make_p(text)
 

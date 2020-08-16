@@ -1,13 +1,13 @@
 ¡Bienvenidos a un nuevo blog! UwU/.
 
 [B]Presentado por...
-[IMG=KYPEV]
+[IMG=Images/image.jpg]Cositas locas.
 
 Pues aquí seguimos jeje. Desde hace rato he querido hablar sobre números grandes. Probaré a hacer una pequeña serie de blogs describiendo éstos números. Díganme si les interesa :3.
 
 No son solamente por lo grandes que son que quiero hacerles blogs, sino que también se me hacen bastante interesantes :0. Espero que a ustedes también :D.
 
-[IMG=CMVOU]
+[IMO=CMVOU]
 ⓪ Íɴᴅɪᴄᴇ
     ⇨ Se me perdió ;-;.
 ① Cᴏɴᴏᴄɪᴍɪᴇɴᴛᴏs Pʀᴇᴠɪᴏs
@@ -78,15 +78,15 @@ Con que sepas las diferencias entre la primera, segunda y tercera dimensión, ya
 Hagamos esto de la manera más visual posible.
 
 Podemos dibujar un cuadrado en un papel usando un lápiz. No es complicado, simplemente hacemos lo siguiente:
-[IMG=HEWYT]
+[IMO=HEWYT]
 
 Sabemos que no podemos dibujar literalmente un objeto 3D en un papel. De todas maneras, aún podemos representar dicha figura. Y lo podemos hacer de la manera que muchos ya conocemos:
-[IMG=CPSBM]
+[IMO=CPSBM]
 
 ¿Qué fue lo que hicimos? Lo que hicimos fue duplicar nuestra figura 2D (Cuadrado Verde), consiguiendo otra figura 2D (Cuadrado Rojo). Finalmente, unimos los vértices correspondientes (Líneas Azules).
 
 No fue tan difícil pasar de 2D a 3D. ¿Por qué no hacer lo mismo para pasar de 3D a 4D? Pues intentémoslo :D.
-[IMG=IWJON]
+[IMO=IWJON]
 La figura puede dar miedo, pero no quiero que se asusten :3. Hicimos exactamente el mismo procedimiento. Duplicamos nuestra figura 3D (Cubo Verde), obteniendo otra figura en 3D (Cubo Rojo). Para al último unir los vértices correspondientes (Líneas Azules).
 
 A ésta figura se le llama el
@@ -94,7 +94,7 @@ A ésta figura se le llama el
 ¡Hemos dibujado en papel una figura en 4D? :DD. No se la intenten imaginar en la vida real, que no van a poder hacerlo totalmente xD. Dejémoslo en ésa representación solamente.
 
 Lo divertido de ésto, es que podemos seguir aumentando de dimensiones de manera sencilla. El que los cubos se vean "sencillos" ya es otro problema xd. Aquí tenemos al cubo en 5 dimensiones :3.
-[IMG=VZHSQ]
+[IMO=VZHSQ]
 
 Si es que aún les quedan dudas, pueden checar [éste video|https://youtu.be/Q_B5GpsbSQw] :D. Creo que lo hace más visual que yo. Está en inglés, pero tiene subtítulos en español -w-r.
 [C]ထထထထထထထထထ၀ထထထထထထထထထ
@@ -122,11 +122,11 @@ Imaginemos que tenemos 4 vértices en el plano. ¿Cuántas líneas rectas podemo
 Tenemos 4 vértices. Una línea recta solamente puede unir 2 vértices. Ni más, ni menos. Ya que la línea recta que une al vértice 𝑨 y 𝑩, es la misma que la que une los vértices 𝑩 y 𝑨, usaremos la combinación. Teniendo nuestro resultado
 [BC]4C2 = 6.
 Y esto lo podemos ver de una manera visual como sigue:
-[IMG=SSCRE]
+[IMO=SSCRE]
 Notemos que en efecto son 6 líneas :D.
 
 Buano, sabiendo ésto ya podemos pasar a nuestro propósito. Ahora queremos pintar todas las líneas de 2 colores distintos. Nuestra meta es que no exista un cuadrado con todas sus 6 líneas pintadas de un mismo color. Pues...
-[IMG=SEPZW]
+[IMO=SEPZW]
 Ajá... Hemos logrado la meta... ¿Y ahora?
 
 [BI]Ahora toca subir de nivel 7u7.
@@ -134,10 +134,10 @@ Ajá... Hemos logrado la meta... ¿Y ahora?
 ¡Probemos con 3 dimensiones! Tendremos un cubo de 8 vértices. Entonces podremos pintar un total de
 [BC]8C2 = 28
 líneas, uniendo dichos vértices. ¡Recuerden! Hay que pintar las líneas de manera que no exista un cuadrado tal que pase lo siguiente:
-[IMG=JCDAI]
+[IMO=JCDAI]
 
 Un ejemplo de aquello (y espero no arruinarlo xD) es el siguiente:
-[IMG=SKAOM]
+[IMO=SKAOM]
 [BI]- ¿Y para 4 dimensiones?
 [BI]+ ¿Qué tal para 5 dimensiones?
 [BI]> ¿Alguien se imagina para 6 dimensiones?
@@ -147,7 +147,7 @@ Un ejemplo de aquello (y espero no arruinarlo xD) es el siguiente:
 Me saltaré directamente a la última respuesta que se escucha a lo lejos :p. Y la respuesta es
 [BC]NO.
 Sorprendentemente, existe una dimensión donde NO importa cómo coloreemos las líneas, nunca podremos evitar conseguir 4 vértices donde suceda alguno de éstos casos:
-[IMG=DKGZH]
+[IMO=DKGZH]
 Y pues a partir de ésa dimensión, en todas las siguientes dimensiones sucederá ésto mismo.
 
 [BC]¿Cuál es ésa dimensión?
@@ -181,11 +181,11 @@ Iremos por partes :3.
 
 Por la sección de "Conocimientos Previos", ya sabemos lo que es la flecha ↑. Escribamos los casos en medio-general cuando hay 1, 2 y 3 flechas :3.
 [C]Caso 1 flecha:
-[IMG=MSPIC]
+[IMO=MSPIC]
 [C]Caso 2 flechas:
-[IMG=PWIHK]
+[IMO=PWIHK]
 [C]Caso 3 flechas:
-[IMG=SDVIU]
+[IMO=SDVIU]
 
 Buano, lo que queremos es el caso cuando 𝒏 = 3.
 
@@ -193,18 +193,18 @@ Cuando tenemos 1 sola flecha, es bastante sencillo. siendo
 [BC]3 ↑ 3 = 27.
 
 Aumentemos el nivel 7w7. Cuando existen 2 flechas, tenemos que
-[IMG=VSZGH]
+[IMO=VSZGH]
 Esto es
 [BC]3 ↑↑ 3 = 7,625,597,484,987.
 ¡Ya estamos sobre los billones! Fue un salto bastante grande :00. ¡Y solamente llevamos 2 flechas! ¿Qué pasará con 3 flechas? Veámoslo...
-[IMG=BIBLF]
+[IMO=BIBLF]
 ¿Qué tan grande es éste número? Pues déjenme decirles que es un número que, para escribirlo, usaremos
 [BC]3,638,334,640,024 dígitos.
 ¡¡3 mil billones de dígitos para escribir un número!!
 [S]Digo, para escribir 3 ↑↑ 3 usamos solamente 13 dígitos 00:.
 
 Ya es un número exagerado. Uno que es increíblemente grande. Pero aún falta un paso más. Veamos 4 flechas D:.
-[IMG=IJJBP]
+[IMO=IJJBP]
 [BICUS]¡¡¡AAAAAAAAAAHHHHH!!!
 ¿Notan lo horriblemente enorme que es, con tan sólo 4 flechas? Ni siquiera puedo explicarles de una manera visual qué tan gigante es :C.
 
@@ -213,7 +213,7 @@ Bueno. Si han llegado hasta acá, ¡¡felicidades!! Hemos completado lo más pes
 Ya finalmente tenemos todo para explicar el número de Graham :D.
 
 Escribiremos la siguiente notación:
-[IMG=ICEQB]
+[IMO=ICEQB]
 [C]Awanta...
 [C]𝒈...¿ 1 ?
 [BC]¡¿¡ 1 !?!
@@ -236,17 +236,17 @@ Escribiremos la siguiente notación:
 [BC].
 
 [IC]¡Les presento el nivel 2!
-[IMG=LKFAO]
+[IMO=LKFAO]
 Justo como lo están leyendo. Para el primer nivel hemos usado 4 flechas. Ni siquiera podríamos entender qué tan grande es. Y ése gigantesco número, es el número de FLECHAS que se escriben para el SEGUNDO NIVEL.
 
 ¿¿Pues qué creen?? NO nos basta con solamente 2 niveles. Vamos a decir que
-[IMG=OJKDB]
+[IMO=OJKDB]
 Es decir, el nivel 3 escribiremos el número de flechas correspondientes al nivel 2. Para el nivel 4 usaremos las del nivel 3. Y así sucesivamente.
 
 ¡Por fin! Pues el número de Graham es exactamente
 [BC]𝑮 = 𝒈₆₄ .
 También lo podemos ver de la siguiente manera :3.
-[IMG=ETFCI]
+[IMO=ETFCI]
 
 ¡Éste es la dimensión, donde estamos seguros que no podremos lograr nuestra meta original!
 [S]¿Alguien gustaría dibujar un cubo en ésa dimensión? :3.
@@ -296,7 +296,7 @@ Nunca seremos capaces, ni siquiera de entender qué tan grande es 𝒈₁, su pr
 [BC]╰─────────────╯
 
 • Nuestra meta, era encontrar una dimensión donde, no importa cómo pintemos las diagonales de su cubo, siempre encontraremos 4 vértices de aquel donde pase alguno de los siguientes casos:
-[IMG=VLJXF]
+[IMO=VLJXF]
 Vimos que esto es perfectamente posible en la segunda y tercera dimensión. Hasta 2008 se sabe lo siguiente:
 [B]+ 4 Dimensiones - Es posible.
 [B]+ 5 Dimensiones - Es posible. 
