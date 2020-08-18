@@ -269,7 +269,7 @@ También lo podemos ver de la siguiente manera :3.
 
 Vamos a dar algunas pistas para que vean lo inmenso que es el número de Graham.
 
-- Acorde con [Numberphile|https://youtu.be/XTeJ64KD5cg], ¿qué pasaría si intentamos pensar en TODOS los dígitos que tiene el número de Graham? Pues que son demasiados, que nuestra cabeza se convertiría en un AGUJERO NEGRO, ANTES de pensar en todos :3. Y estamos hablando de manera literal :p.
+- Acorde con [Numberphile|https://youtu.be/XTeJ64KD5cg], ¿qué pasaría si intentamos pensar en TODOS los dígitos que tiene el número de Graham? Pues que son demasiados, que nuestra cabeza se convertiría en un AGUJERO NEGRO, ANTES de pensar en todos :3. Y estamos hablando de manera literal :p. Ahora haz click [aquí|www.google.com]
 
 - Recordemos que para escribir a 𝒈₁, necesitábamos una torre de 3 ↑↑↑ 3 capas. ¿Qué pasaría si intentamos escribir todas esas capas en el mundo real? Imaginemos que escribimos cada capa en un sólo volumen de Planck, el menor volumen donde apenas hace sentido toda nuestra física. Pues necesitaremos TODO el universo observable para escribirlos, y nos hace falta MUCHO espacio más.
 

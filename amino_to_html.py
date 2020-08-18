@@ -15,6 +15,44 @@ def get_text(fileName):
                 file=sys.stderr)
         sys.exit(1)
 
+def check_for_URL(line):
+    bracketO = -1
+    bracketC = -1
+    pairs = []
+
+    for letter_pos in range(len(line)):
+        if   line[letter_pos] == '[':
+            bracketO = letter_pos
+        elif line[letter_pos] == ']' and bracketO != -1:
+            bracketC = letter_pos
+            if '|' in line[ bracketO+2 : bracketC-1 ]:
+                pairs.append([bracketO, bracketC])
+            bracketO = -1
+
+    return pairs
+
+def make_url(text):
+    pos = check_for_URL(text)
+
+    result = ''
+    lastClose = 0
+
+    for [bOpen, bClose] in pos:
+        result += text[lastClose:bOpen]
+
+        html =  "<a class='text-link' href='"
+        html += text[ bOpen+1 : bClose ].split('|')[1]
+        html += "' target='_blank'>"
+        html += text[ bOpen+1 : bClose ].split('|')[0]
+        html += "</a>"
+
+        result += html
+        lastClose = bClose + 1
+
+    result += text[lastClose:]
+
+    return result
+
 def make_p(text, args = []):
     """Formats to HTML <p> having in count BICUS."""
     BICUS = {
@@ -57,13 +95,15 @@ def bicus(text):
     format_and_text = text.split(']')
     if (not check_duplicates(format_and_text[0]) and all(letter in 'BICUS' for letter in format_and_text[0][1:])):
         return make_p(format_and_text[1], format_and_text[0][1:])
-    elif (format_and_text[0][1:4] == 'IMG'):
+    elif (format_and_text[0][1:5] == 'IMG='):
         return make_figure(format_and_text[0][5:], format_and_text[1])
     else:
         return make_p(text)
 
 def amino_line_to_html(line):
     """Converts a line to HTML, with Amino formating."""
+    line = make_url(line)
+
     if (line[0] == '[' and ']' in line):
         return bicus(line)
     else:
